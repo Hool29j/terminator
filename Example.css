@@ -1,0 +1,40 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    height: 150vh;
+    overflow-x: hidden;
+}
+.text-box{
+    text-align: center;
+    font-size: 62px;
+    color: white;
+    padding-top: 17%;
+}
+.bg-home{
+    background-image: url(Images/bg-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-image1{
+    background-image: url(Images/empty.jpg);
+    height: 100px;
+    
+    background-position: center;
+}
+.bg-image2{
+    background-image: url(Images/empty.jpg);
+    background-position: center;
+    height: 300px;
+}
+.btn-leaf{
+    background-color: #1e461b;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn-leaf:hover{
+    background-color: #fff;
+    color: #1e461b;
+}
