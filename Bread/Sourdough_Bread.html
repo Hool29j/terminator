@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://kit.fontawesome.com/72416a9d5a.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="../Images/Home/logo1.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <title>2T | SourDough Bread</title>
+  <style>
+    .bg-1{
+      background-image: url(../Images/Bread/sourdoughbread1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 400px;
+    }
+    .bg-2{
+      background-image: url(../Images/Bread/Sourdough-bread2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 490px;
+    }
+  </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar z-3 navbar-expand-lg position-fixed bg-light w-100">
+        <div class="container-fluid">
+            <a href="Home.html" class="navbar-brand font-weight-bold ms-3"><img src="../Images/Home/logo2.png" width="70px" height="70px" alt=""></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"><span class="navbar-toggler-icon"></span></button>
+            <div class="offcanvas offcanvas-end" id="offcanvas">
+                <div class="offcanvas-header">
+                    <a href="Home.html" class="navbar-brand mx-0 font-weight-bold">Menu</a>
+                    <button type="button" class="btn btn-close btn-close-dark btn-outline-light me-3" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body me-3">
+                    <ul class="navbar-nav nav-pills ms-auto">
+                        <li class="nav-item px-2"><a href="Home.html" class="nav-link ps-2">Home</a></li>
+                        <li class="nav-item px-2 dropdown">
+                            <a href="#" class="nav-link ps-2 dropdown-toggle" data-bs-toggle="dropdown">Recipes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item ps-2">Bread</a></li>
+                                <li><a href="#" class="dropdown-item ps-2">Soups and Stews</a></li>
+                                <li><a href="#" class="dropdown-item ps-2">Sauces</a></li>
+                                <li><a href="#" class="dropdown-item ps-2">Appetizer</a></li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle ps-2 text-dark" data-bs-toggle="dropdown">Cuisine</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li><a href="#" class="dropdown-item">Chinese</a></li>
+                                        <li><a href="#" class="dropdown-item">Italian</a></li>
+                                        <li><a href="#" class="dropdown-item">Indian</a></li>
+                                        <li><a href="#" class="dropdown-item">Japanese</a></li>
+                                        <li><a href="#" class="dropdown-item">Myanmar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropdown-item ps-2">Vegan</a></li>
+                                <li><a href="#" class="dropdown-item ps-2">Vegetarian</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-2"><a href="#" class="nav-link ps-2">About Us</a></li>
+                        <li class="nav-item px-2"><a href="#" class="nav-link ps-2">Contact Us</a></li>
+                        <li class="nav-item px-2"><a href="#" class="nav-link ps-2">News</a></li>
+                        <li class="nav-item px-2"><a href="#" class="nav-link ps-2">Expert Advice</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="vh"></div>
+    <!-- Intro -->
+    <div class="container-lg col-sm-9 col-xl-9">
+        <h2 class="text-center pt-3">
+            SourDough Bread
+        </h2>
+        <p class="pt-4">Sourdough bread is made using a natural fermentation process that gives it a tangy flavor and chewy texture.</p>
+        <p> It's typically made with wheat and rye flours and used for toast, sandwiches, or served alongside meals. It has a long shelf life and is known for its nutritional benefits.</p>
+        <div id="myslide" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active bg-1">
+            </div>
+            <div class="carousel-item bg-2"></div>
+          </div>
+          <a class="carousel-control-prev text-decoration-none" href="#myslide" role="button" data-bs-slide="prev">
+              <i class="fa-solid fa-angle-left fa-2x"></i>
+          </a>
+          <a class="carousel-control-next text-decoration-none" href="#myslide" role="button" data-bs-slide="next">
+              <i class="fa-solid fa-angle-right fa-2x"></i>
+          </a>
+        </div>
+        <div class="pt-3">
+          <h3 class="border-bottom border-3 border-success">Ingredients</h3>
+          <ul style="list-style: disc;" class="py-3 fs-5">
+            <li>500g bread flour</li>
+            <li>10g salt</li>
+            <li>350g sourdough starter (see notes on how to make a starter below)</li>
+            <li>300-350mlwater</li>
+          </ul>
+        </div>
+        <div class="pt-3">
+          <h3 class="border-bottom border-3 border-success">
+            SourDough Starter
+          </h3>
+          <ol class="py-3 fs-5">
+            <li> In a large mixing bowl, combine 100g of whole wheat flour and 100g of lukewarm water.</li>
+            <li>Mix everything together until a think batter forms.</li>
+            <li>Cover the bowl with a clean kitchen towel or plastic warp and let it sit at room temperature for 24 hours.</li>
+            <li>After 24 hours, discard about half of the mixture and feed the remaining starter with another 100g of whole wheat flour and 100g of lukewarm water. Mix everything together until a thick batter forms.</li>
+            <li>Repeat the feeding process every 24 hours, discarding half of the mixture before each feeding, until the starter becomes active and bubbly. This may take anywhere from 5-10 days, depending on the temperature and humidity of your environment.</li>
+            <li>Once your starter is active, you can use it to make so8urdough bread or store it in the refrigerator until you're ready to use it again. To keep your starter active, feed it with fresh flour and water every few days.</li>
+          </ol>
+        </div>
+        <div class="pt-3">
+          <h3 class="border-bottom border-3 border-success">Step By Step</h3>
+          <ol class="py-3 fs-5">
+            <li>In a large mixing bowl, combine the bread flour and salt.</li>
+            <li>Add the sourdough starter and about 300ml of water to the bowl. Use your hands or a dough scraper to mix everything together until a shaggy dough forms.</li>
+            <li>If the dough is too dry, gradually add more water until you have a moist but not sticky dough.</li>
+            <li>Cover the bowl with a clean kitchen towel or plastic wrap and let it rest for 30 minutes.</li>
+            <li>After 30 minutes, use your hands or a dough scraper to stretch and fold the dough over onto itself a few times. This helps to develop gluten and strengthen the dough.</li>
+            <li>Cover the bowl again and let the dough rest for another 30 minutes.</li>
+            <li>Repeat the stretching and folding process every 30 minutes for a total of 2-3 hours, or until the dough has become more elastic and developed a smooth surface.</li>
+            <li>Once the dough is ready, turn it out onto a floured surface and shape it into a round loaf.</li>
+            <li>Place the dough into a floured proofing basket or a bowl lined with a floured kitchen towel. Cover with a clean kitchen towel and let it rest at room temperature for 2-3 hours, or until it has doubled in size.</li>
+            <li>Preheat your oven to 450°F (230°C) and place a cast iron Dutch oven or baking dish with a lid inside to preheat as well.</li>
+            <li>Once the dough has finished proofing, carefully remove the preheated Dutch oven from the oven and remove the lid.</li>
+            <li>Invert the proofing basket or bowl with the dough onto a piece of parchment paper, then transfer the dough and parchment paper into the Dutch oven.</li>
+            <li>Use a sharp knife or razor blade to score the top of the dough with a few shallow cuts.</li>
+            <li>Cover the Dutch oven with the lid and bake for 20 minutes.</li>
+            <li>Remove the lid and bake for an additional 20-25 minutes, or until the crust is deep golden brown and the internal temperature of the bread reaches 200°F (93°C).</li>
+            <li>Remove the bread from the Dutch oven and let it cool on a wire rack for at least 30 minutes before slicing and serving.</li>
+          </ol>
+        </div>
+        <div class="my-3" style="background-color: rgb(93, 200, 93);">
+          <div class="p-3">
+            <h4>NUTRITION FACTS</h4>
+          <div class="row pt-2 fs-6">
+            <div class="col-lg-4">
+              <p><b>Fat</b> : 1.3g</p>
+              <p><b>Protein</b>: 7.6g</p>
+            </div>
+            <div class="col-lg-4">
+              <p><b>Sodium</b>: 369mg</p>
+              <p><b>Carbohydrates</b>: 45.6g</p>
+            </div>
+            <div class="col-lg-4">
+              <p><b>Fiber</b>: 2.7g</p>
+              <p><b>Sugars</b>: 1.1g</p>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer text-white">
+        <div class="container py-3">
+          <div class="row">
+            <div class="col-lg-6 my-4">
+              <h4 class="d-none d-lg-block">Section</h4>
+              <div class="row">
+                <div class="col-lg-6 d-none d-lg-block">
+                  <div class="footer-col">
+                    <ul class="nav flex-column">
+                      <li><a href="Home.html">Home</a></li>
+                      <li><a href="About.html">About</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                      <li><a href="Recipe.html">Recipe</a></li>
+                      <li><a href="News.html">News</a></li>
+                      <li><a href="Expert_Advice.html">Expert Advice</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="http://www.instagram.com/terminators2t"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://twitter.com/thetermaintors?ref_src=twsrc%5Etfw"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="copyright pt-3">Copyright © 2023 Team Terminator All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
