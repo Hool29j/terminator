@@ -1,0 +1,119 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    height: 150vh;
+    overflow-x: hidden;
+}
+.text-box{
+    text-align: center;
+    font-size: 62px;
+    color: white;
+    padding-top: 17%;
+}
+.vh{
+    height: 12vh;
+}
+.dropdown-menu li {
+    position: relative;
+    }
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+.bg-home{
+    background-image: url(Images/Home/bg-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-leaf{
+    background-color: #1e461b;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.bg-subscribe{
+    background-image: url(Images/Home/bg-sub.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 65%;
+}
+.bg-advice{
+    background-image: url(Images/Home/Advice_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+.footer{
+    background-color: #1e461b;
+    min-height: 60vh;
+}
+.footer-col ul li a{
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #fff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: black;
+	background-color: #ffffff;
+}
+.copyright{
+	text-align: center;
+	font-size: 16px;
+	color: #bbb;
+}
+.edit{
+    font-size: large;
+}
+.carousel .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+.carousel .carousel-indicators{
+    bottom: -50px;
+}
+.carousel .carousel-inner img{
+    border-radius: 100%;
+}
+.bgi{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bgin{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

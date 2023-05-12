@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://kit.fontawesome.com/72416a9d5a.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="Images/Icon/logo1.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <title>2T | Home</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg position-fixed bg-light w-100">
+        <div class="container-fluid">
+            <a href="Home.html" class="navbar-brand font-weight-bold ms-3"><img src="Images/Home/logo2.png" width="70px" height="70px" alt=""></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"><span class="navbar-toggler-icon"></span></button>
+            <div class="offcanvas offcanvas-end" id="offcanvas">
+                <div class="offcanvas-header">
+                    <a href="Home.html" class="navbar-brand mx-0 font-weight-bold">Menu</a>
+                    <button type="button" class="btn btn-close btn-close-dark btn-outline-light me-3" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body me-3">
+                    <ul class="navbar-nav nav-pills ms-auto">
+                        <li class="nav-item px-2"><a href="Home.html" class="nav-link ps-2">Home</a></li>
+                        <li class="nav-item px-2 dropdown">
+                            <a href="#" class="nav-link ps-2 dropdown-toggle" data-bs-toggle="dropdown">Recipes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item ps-2">Bread</a></li>
+                                <li><a href="#" class="dropdown-item ps-2">Soups and Stews</a></li>
+                                <li><a href="#" class="dropdown-item ps-2">Sauces</a></li>
+                                <li><a href="#" class="dropdown-item ps-2">Appetizer</a></li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle ps-2 text-dark" data-bs-toggle="dropdown">Cuisine</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li><a href="#" class="dropdown-item">Chinese</a></li>
+                                        <li><a href="#" class="dropdown-item">Italian</a></li>
+                                        <li><a href="#" class="dropdown-item">Indian</a></li>
+                                        <li><a href="#" class="dropdown-item">Japanese</a></li>
+                                        <li><a href="#" class="dropdown-item">Myanmar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropdown-item ps-2">Vegan</a></li>
+                                <li><a href="#" class="dropdown-item ps-2">Vegetarian</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-2"><a href="#" class="nav-link ps-2">About Us</a></li>
+                        <li class="nav-item px-2"><a href="#" class="nav-link ps-2">Contact Us</a></li>
+                        <li class="nav-item px-2"><a href="#" class="nav-link ps-2">News</a></li>
+                        <li class="nav-item px-2"><a href="#" class="nav-link ps-2">Expert Advice</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="vh"></div>
+    <!-- Intro -->
+    <div class="bg-home">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6 mx-auto">
+                <img src="Images/Home/Food.png" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500">
+              </div>
+              <div class="col-lg-6" style="line-height: 36px;">
+                <h1 class="display-5 fw-bold  mb-3">Let's Start<br>Cooking with<br>Popular Recipes</h1>
+                <p class="lead">Want to learn cook but confused how to start? <br> No need to worry again</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn-leaf px-4 me-md-2"><a href="" class="text-decoration-none text-white">Get Started</a></button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a href="#" class="text-decoration-none text-dark">Explore Menu</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Popular Food -->
+    <div class="px-4 py-5 bg-body-secondary rounded-3 text-center text-dark">
+        <h1 class="display-4 fw-bold">Popular Food</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="edit mb-4">We provide a variety of food and beverage recipes with high taste from famous chefs</p>
+        </div>
+        <div class="container py-4 px-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2">
+                <div><a href="#" class="text-decoration-none text-dark"><img src="Images/Home/Ciabatta.jpg" width="150px" height="150px" alt="Feijoada" class="rounded-circle"><h5 class="text-center text-dark">Ciabatta</h5></a></div>
+                <div><a href="#" class="text-decoration-none text-dark"><img src="Images/Home/Udon.png" width="150px" height="150px" alt="Udon" class="rounded-circle"><h5 class="text-center text-dark">Udon</h5></a></div>
+                <div><a href="#" class="text-decoration-none text-dark"><img src="Images/Home/French_Onion_Soup.jpg" width="150px" height="150px" alt="taco" class="rounded-circle"><h5 class="text-center text-dark">Frech Onion Soup</h5></a></div>
+                <div><a href="#" class="text-decoration-none text-dark"><img src="Images/Home/Deviled_Eggs.png" width="150px" height="150px" alt="Deviled Eggs" class="rounded-circle"><h5 class="text-center text-dark">Deviled Eggs</h5></a></div>
+                <div><a href="#" class="text-decoration-none text-dark"><img src="Images/Home/Shrimp_Cocktail.png" width="150px" height="150px" alt="Shrimp Cocktail" class="rounded-circle"><h5 class="text-center text-dark">Shrimp Cocktail</h5></a></div>
+                <div><a href="#" class="text-decoration-none text-dark"><img src="Images/Home/Matzo_Ball_Soup.png" width="150px" height="150px" alt="Matzo Ball Soup" class="rounded-circle"><h5 class="text-center text-dark">Matzo Ball Soup</h5></a></div>
+            </div>
+        </div>
+    </div>
+    <!-- More -->
+    <div class="container pt-5">
+      <div class="border-bottom border-success border-2">
+        <h3>More</h3>
+    </div>
+    </div>
+    <!-- More slide for xxl view -->
+      <div id="myslide" class="carousel slide my-4 py-3 d-none d-xxl-block" style="z-index: -1;">
+        <ol class="carousel-indicators">
+          <li data-bs-slide-to="0" data-bs-target="#myslide" class="active"></li>
+          <li data-bs-slide-to="1" data-bs-target="#myslide"></li>
+          <li data-bs-slide-to="2" data-bs-target="#myslide"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <div class="row row-cols-6 row-gap-2">
+                <div><a href="#" class="text-decoration-none"><img src="Images/Home/Brioche.jpg" width="170px" height="170px" alt=""><p class="text-center text-dark">Brioche</p></a></div>
+                <div><a href="#" class="text-decoration-none"><img src="Images/Home/Pita_bread.jpg" width="170px" height="170px" alt=""><p class="text-center text-dark">Pita Bread</p></a></div>
+                <div><a href="#" class="text-decoration-none"><img src="Images/Home/Whold_Wheat_Bread.jpg" width="170px" height="170px" alt=""><p class="text-center text-dark">Whold Wheat Bread</p></a></div>
+                <div><a href="#" class="text-decoration-none"><img src="Images/Home/Focaccia.jpg" width="170px" height="170px" alt=""><p class="text-center text-dark">Focaccia</p></a></div>
+                <div><a href="#" class="text-decoration-none"><img src="Images/Home/Italian_Wedding_Soup.png" width="170px" height="170px" alt=""><p class="text-center text-dark">Italian Wedding Soup</p></a></div>
+                <div><a href="#" class="text-decoration-none"><img src="Images/Home/Mexican_Caldo_De_Res.png" width="170px" height="170px" alt=""><p class="text-center text-dark">Mexican Caldo De Res</p></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="row row-cols-6 row-gap-2">
+                <div><img src="Images/Home/Minestrone.jpg" width="170px" height="170px" alt=""><p class="text-center text-dark">Minestrone</p></a></div>
+                <div><img src="Images/Home/baguettes_2.jpg" width="170px" height="170px" alt=""><p class="text-center text-dark">Baguettes</p></a></div>
+                <div><img src="Images/Home/Vietnamese-Pho.jpg" width="170px" height="170px" alt=""><p class="text-center text-dark">Vietnamese Pho</p></a></div>
+                <div><img src="Images/Home/Avocado Ranch.jpg" width="170px" height="170px" alt=""><p class="text-center text-dark">Avocado Ranch</p></a></div>
+                <div><img src="Images/Home/Sourdough-bread 2.jpg" width="170px" height="170px" alt=""><p class="text-center text-dark">Sourdough Bread</p></a></div>
+                <div><img src="Images/Home/Mexican_Caldo_De_Res.png" width="170px" height="170px" alt=""><p class="text-center text-dark"></p></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="row row-cols-6 row-gap-2">
+                <div><img src="Images/Home/Mexican_Caldo_De_Res.png" width="170px" height="170px" alt=""><p class="text-center text-dark"></p></a></div>
+                <div><img src="Images/Home/Mexican_Caldo_De_Res.png" width="170px" height="170px" alt=""><p class="text-center text-dark"></p></a></div>
+                <div><img src="Images/Home/Mexican_Caldo_De_Res.png" width="170px" height="170px" alt=""><p class="text-center text-dark"></p></a></div>
+                <div><img src="Images/Home/Mexican_Caldo_De_Res.png" width="170px" height="170px" alt=""><p class="text-center text-dark"></p></a></div>
+                <div><img src="Images/Home/Mexican_Caldo_De_Res.png" width="170px" height="170px" alt=""><p class="text-center text-dark"></p></a></div>
+                <div><img src="Images/Home/Mexican_Caldo_De_Res.png" width="170px" height="170px" alt=""><p class="text-center text-dark"></p></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#myslide" role="button" data-bs-slide="prev" class="carousel-control-prev"><i class="fa-solid fa-angle-left bg-dark fa-2x"></i></a>
+        <a href="#myslide" role="button" data-bs-slide="next" class="carousel-control-next"><i class="fa-solid fa-angle-right bg-dark fa-2x"></i></a>
+      </div>
+      <!-- More Slider for other view -->
+      <div id="myslide1" class="carousel slide my-4 py-3 d-xxl-none" style="z-index: -1;">
+        <ol class="carousel-indicators">
+          <li data-bs-slide-to="0" data-bs-target="#myslide1" class="active"></li>
+          <li data-bs-slide-to="1" data-bs-target="#myslide1"></li>
+          <li data-bs-slide-to="2" data-bs-target="#myslide1"></li>
+          <li data-bs-slide-to="3" data-bs-target="#myslide1"></li>
+          <li data-bs-slide-to="4" data-bs-target="#myslide1"></li>
+          <li data-bs-slide-to="5" data-bs-target="#myslide1"></li>
+          <li data-bs-slide-to="6" data-bs-target="#myslide1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <div class="rounded-4 bgi w-75 shadow-lg h-100" style="background-image: url(Images/Home/Brioche.jpg);">
+                  <div class="d-flex h-100 p-5 mt-5 text-white">
+                      <h3 class="pt-5 display-6 fw-bold">Brioche</h3>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="rounded-4 bgi w-75 shadow-lg h-100" style="background-image: url(Images/Home/Pita_bread.jpg);">
+                  <div class="d-flex h-100 p-5 mt-5 text-white">
+                      <h3 class="pt-5 display-6 fw-bold">Pita Bread</h3>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="rounded-4 bgi w-75 shadow-lg h-100" style="background-image: url(Images/Home/Whold_Wheat_Bread.jpg);">
+                  <div class="d-flex h-100 p-5 mt-5 text-white">
+                      <h3 class="pt-5 display-6 fw-bold">Whold Wheat Bread</h3>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="rounded-4 bgi w-75 shadow-lg h-100" style="background-image: url(Images/Home/Minestrone.jpg);">
+                  <div class="d-flex h-100 p-5 mt-5 text-white">
+                      <h3 class="pt-5 display-6 fw-bold">Minestrone</h3>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="rounded-4 bgi w-75 shadow-lg h-100" style="background-image: url(Images/Home/Italian_Wedding_Soup.png);">
+                  <div class="d-flex h-100 p-5 mt-5 text-white">
+                      <h3 class="pt-5 display-6 fw-bold">Italian Wedding Soup</h3>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="rounded-4 bgi w-75 shadow-lg h-100" style="background-image: url(Images/Home/Mexican_Caldo_De_Res.png);">
+                  <div class="d-flex h-100 p-5 mt-5 text-white">
+                      <h3 class="pt-5 display-6 fw-bold"></h3>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="rounded-4 bgi w-75 shadow-lg h-100" style="background-image: url(Images/Home/baguettes_2.jpg);">
+                  <div class="d-flex h-100 p-5 mt-5 text-white">
+                      <h3 class="pt-5 display-6 fw-bold">Baguettes</h3>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#myslide1" role="button" data-bs-slide="prev" class="carousel-control-prev"><i class="fa-solid fa-angle-left bg-dark fa-2x"></i></a>
+        <a href="#myslide1" role="button" data-bs-slide="next" class="carousel-control-next"><i class="fa-solid fa-angle-right bg-dark fa-2x"></i></a>
+      </div>
+      <!-- Expert Advice -->
+    <div class="container py-4 my-4">
+          <div class="border-bottom border-success border-2">
+              <h3>Expert Advice</h3>
+          </div>
+          <div class="row pt-4">
+              <div class="col-lg-7">
+                  <div class="bg-advice"></div>
+                  <h4 class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+              </div>
+              <div class="col-lg-5">
+                  <div class="d-flex pb-2">
+                      <div class="flex-shrink-0">
+                        <img src="Images/Home/Advice_2.jpg" class="rounded-circle" width="100px" height="100px">
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        This is some content from a media component. You can replace this with any content and adjust it as needed.
+                      </div>
+                  </div>
+                  <div class="d-flex py-2">
+                      <div class="flex-shrink-0">
+                        <img src="Images/Home/Advice_3.jpg" class="rounded-circle" width="100px" height="100px">
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        This is some content from a media component. You can replace this with any content and adjust it as needed.
+                      </div>
+                  </div>
+                  <div class="d-flex py-2">
+                      <div class="flex-shrink-0">
+                        <img src="Images/Home/Advice_4.jpg" class="rounded-circle" width="100px" height="100px">
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        This is some content from a media component. You can replace this with any content and adjust it as needed.
+                      </div>
+                  </div>
+                  <div class="d-flex py-2">
+                      <div class="flex-shrink-0">
+                        <img src="Images/Home/Advice_5.jpg" class="rounded-circle" width="100px" height="100px">
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        This is some content from a media component. You can replace this with any content and adjust it as needed.
+                      </div>
+                  </div>
+                  <div class="d-flex py-2">
+                      <div class="flex-shrink-0">
+                        <img src="Images/Home/Advice_6.jpg" class="rounded-circle" width="100px" height="100px">
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        This is some content from a media component. You can replace this with any content and adjust it as needed.
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+    <!-- News -->
+    <div class="bg-body-secondary">
+      <div class="container py-4">
+        <div class="border-bottom border-success border-2">
+            <h3>News</h3>
+        </div>
+        <div class="row pt-4">
+            <div class="col-lg-7">
+                <div class="bg-advice"></div>
+                <h4 class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+            </div>
+            <div class="col-lg-5">
+                <div class="d-flex pb-2">
+                    <div class="flex-shrink-0">
+                      <img src="Images/Home/Advice_2.jpg" class="rounded-circle" width="100px" height="100px">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      This is some content from a media component. You can replace this with any content and adjust it as needed.
+                    </div>
+                </div>
+                <div class="d-flex py-2">
+                    <div class="flex-shrink-0">
+                      <img src="Images/Home/Advice_3.jpg" class="rounded-circle" width="100px" height="100px">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      This is some content from a media component. You can replace this with any content and adjust it as needed.
+                    </div>
+                </div>
+                <div class="d-flex py-2">
+                    <div class="flex-shrink-0">
+                      <img src="Images/Home/Advice_4.jpg" class="rounded-circle" width="100px" height="100px">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      This is some content from a media component. You can replace this with any content and adjust it as needed.
+                    </div>
+                </div>
+                <div class="d-flex py-2">
+                    <div class="flex-shrink-0">
+                      <img src="Images/Home/Advice_5.jpg" class="rounded-circle" width="100px" height="100px">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      This is some content from a media component. You can replace this with any content and adjust it as needed.
+                    </div>
+                </div>
+                <div class="d-flex py-2 pb-5">
+                    <div class="flex-shrink-0">
+                      <img src="Images/Home/Advice_6.jpg" class="rounded-circle" width="100px" height="100px">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      This is some content from a media component. You can replace this with any content and adjust it as needed.
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+    </div>
+    <!-- Weekly Recipe -->
+    <div class="container py-5 d-flex justify-content-center">
+        <div class="bg-subscribe border rounded-5 shadow-lg" style="padding-top: 80px;">
+            <h3 class="text-center text-dark fw-bold">Subscribe to get weekly recipe updates</h3>
+            <form class="col-lg-8 container pt-5">
+                <div class="d-flex flex-column flex-sm-row gap-2">
+                  <input type="text" class="form-control" placeholder="Email address">
+                  <button class="btn-leaf" type="button">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer text-white">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-lg-6 my-4">
+            <h4 class="d-none d-lg-block">Section</h4>
+            <div class="row">
+              <div class="col-lg-6 d-none d-lg-block">
+                <div class="footer-col">
+                  <ul class="nav flex-column">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Recipe.html">Recipe</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="Expert_Advice.html">Expert Advice</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="footer-col">
+                  <h4>Follow Us</h4>
+                  <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://www.instagram.com/terminators2t"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/thetermaintors?ref_src=twsrc%5Etfw"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="copyright pt-3">Copyright © 2023 Team Terminator All Rights Reserved</p>
+      </div>
+  </footer>
+    
+</body>
+</html>

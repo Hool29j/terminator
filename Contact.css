@@ -1,0 +1,86 @@
+body{
+    background-image: url(Images/Contact/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_head{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.contact_head h2{
+    display: inline;
+    border-bottom: 1px solid white;
+}
+.Info{
+	display: flex;
+	flex-direction: column;
+}
+.Info .box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.Info .box .icon{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+.Info .box .text{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+}
+.Info .box .text h3{
+	font-weight: 500;
+}
+.Form{
+	padding: 40px;
+	background: #fff;
+}
+.Form h2{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+.Form .Input{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.Form .Input input,.Form .Input textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+.Form .Input a{
+	width: 100px;
+	background: #00bcd4;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+	text-decoration: none;
+}
+nav{
+    z-index: 1;
+}
+@media (max-width: 991px){
+	.contact{
+		padding: 50px;
+	}
+}
